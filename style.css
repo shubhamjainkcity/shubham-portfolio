@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding:0px;
+    padding-top:0.1px;
+    font-family: sans-serif;
+}
+body{height:100%;background: url(banner.jpg);background-size:100% 100%;background-position: 30px 50px}
+nav{height:50px;margin-top:10px;width:100%;display:flex;margin-bottom: 200px}
+.nav-left{height:100%;width:50%;}
+.nav-right{height:100%;width:50%;}
+.nav-left>h1{font-size:1.8em;color:white;margin-left:40px}
+.nav-right>ul{display: flex;list-style: none; float:right;margin-right:70px;margin-top:20px;}
+.nav-right>ul>li{list-style: none;}
+.nav-right>ul>li>a{text-decoration: none; font-size:.9em;margin-right: 40px;color: white;letter-spacing: 1px;font-weight: 600}
+.nav-right>ul>li:first-child>a{color:orangered}
+.nav-right>ul>li>a:hover{color:orangered}
+.left{height:300px;width:25%;margin: auto}
+.left>h1{font-size:1.5em;color:white;font-weight: 200}
+.left>p{font-size:1em;color:white;font-weight: bold;line-height:30px}
