@@ -6,13 +6,13 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-light navbar-expand fixed-top">
       <div className="container">
-        <Link className="navbar-brand mr-auto" to="/">
-          <h2 style={{ fontFamily: "Brush Script MT" }}>Shubham Jain</h2>
+        <Link className="navbar-brand mr-auto" to="/shubham-portfolio">
+          <h4 style={{ fontFamily: "Brush Script MT" }}>Shubham Jain</h4>
         </Link>
         <div>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/shubham-portfolio">
                 Home
               </Link>
             </li>

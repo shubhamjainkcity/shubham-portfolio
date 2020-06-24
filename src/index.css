@@ -5,13 +5,11 @@
   font-family: sans-serif;
 }
 body {
-  height: 100vh;
+  height: 100%;
   width: 100wh;
   background-image: url(./img-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: sans-serif;
-  overflow-x: hidden;
   background-attachment: fixed;
   overflow-y: hidden;
 }
