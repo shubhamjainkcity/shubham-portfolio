@@ -1,6 +1,6 @@
 {
-  "homepage": "http://shubhamjainkcity.github.io/portfolio",
-  "name": "portfolio",
+  "homepage": "http://shubhamjainkcity.github.io/shubham-portfolio",
+  "name": "shubham-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
