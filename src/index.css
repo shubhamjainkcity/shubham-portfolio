@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: sans-serif, Brush Script MT;
+  font-family: sans-serif, "Brush Script MT";
 }
 #root {
   height: 100%;
