@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import pdf from "./RESUME_SHUBHAM1.pdf";
 
 class About extends Component {
   state = {};
@@ -9,8 +10,13 @@ class About extends Component {
       <div className="container">
         <div className="row row-content" id="about">
           <div className="col-12 align-self-center ">
-            <h1 style={{ fontFamily: "Brush Script MT", color: "orangered" }}>
-              About Me:
+            <h1
+              style={{
+                fontFamily: "Brush Script MT",
+                color: "orangered",
+              }}
+            >
+              About me:
             </h1>
             <p className="text-center" style={{ color: "white" }}>
               I am currently in 3rd year B.E., Information Technology at MBM
@@ -23,8 +29,8 @@ class About extends Component {
             </p>
             <a
               role="button"
-              href="RESUME_SHUBHAM1.pdf"
-              className="btn btn-block btn-warning"
+              href={pdf}
+              className="btn btn-block btn-warning btn-rounded"
             >
               Download Resume
             </a>
